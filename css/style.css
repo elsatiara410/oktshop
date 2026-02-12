@@ -6,7 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ffb6c1, #add8e6, #001f3f);
+    background: linear-gradient(135deg, #ffb6c1, #add8e6);
+    box-shadow: inset 0 0 50px rgba(0, 31, 63, 0.3);
     color: #333;
     min-height: 100vh;
 }
@@ -70,7 +71,6 @@ nav ul li {
 }
 
 .banner {
-    background: linear-gradient(135deg, #ffb6c1, #add8e6);
     color: #001f3f;
     text-align: center;
     padding: 4rem 2rem;
@@ -78,7 +78,6 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: inset 0 0 50px rgba(0, 31, 63, 0.3);
 }
 
 .banner h1 {
@@ -143,9 +142,8 @@ nav ul li {
 
 .contact {
     max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1rem auto;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2), 0 0 20px rgba(173, 216, 230, 0.3);
     text-align: center;
@@ -209,8 +207,8 @@ nav ul li {
 }
 
 .product-card img {
-    width: 100%;
-    height: 200px;
+    width: 70%;
+    height: 260px;
     object-fit: cover;
 }
 
@@ -220,7 +218,7 @@ nav ul li {
 }
 
 .product-card p {
-    color: #ffb6c1;
+    color: #ef7a8c;
     font-weight: 600;
     margin-bottom: 1rem;
     text-shadow: 0 0 5px #ffb6c1;
@@ -240,7 +238,7 @@ nav ul li {
 }
 
 .product-card button:hover {
-    background-color: #ffb6c1;
+    background-color: #ffacb9;
     box-shadow: 0 0 20px #ffb6c1, 0 0 40px #ffb6c1;
 }
 

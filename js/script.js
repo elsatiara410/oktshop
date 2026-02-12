@@ -1,9 +1,9 @@
 // Product data
 const products = [
-    { id: 1, name: 'Polaroid', price: 50000, image: 'https://via.placeholder.com/300x300?text=Polaroid' },
-    { id: 2, name: 'Photostrip', price: 30000, image: 'https://via.placeholder.com/300x300?text=Photostrip' },
-    { id: 3, name: 'Keychain', price: 20000, image: 'https://via.placeholder.com/300x300?text=Keychain' },
-    { id: 4, name: 'FC / Print Foto', price: 25000, image: 'https://via.placeholder.com/300x300?text=FC+Print' }
+    { id: 1, name: 'Polaroid', price: 600, image: 'img/polaroid.png' },
+    { id: 2, name: 'Photostrip', price: 3500, image: 'img/photostrip.png' },
+    { id: 3, name: 'Keychain', price: 10000, image: 'img/keychain.png' },
+    { id: 4, name: 'FC / Print Foto', price: 1000, image: 'img/print.png' }
 ];
 
 // Cart
